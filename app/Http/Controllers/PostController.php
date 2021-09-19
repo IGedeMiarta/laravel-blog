@@ -8,8 +8,8 @@ class PostController extends Controller
 {
     public function index(){
          return view('posts',[
-        'title'=>'Blog',
-        'posts'=> Post::latest()->get()
+        'title'=>'All Post',
+        'posts'=> Post::with(['author','category'])->latest()->get()
     
     ]);
     }
