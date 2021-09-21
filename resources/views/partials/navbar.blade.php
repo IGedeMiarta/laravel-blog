@@ -6,7 +6,7 @@
              <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav">
+             <ul class="navbar-nav mr-auto">
                  <li class="nav-item">
                      <a class="nav-link {{ $active === 'home' ? 'active' : '' }}" href="/">Home </a>
                  </li>
@@ -20,6 +20,11 @@
                      <a class="nav-link {{ $active === 'categories' ? 'active' : '' }}"
                          href="/categories">Categories</a>
                  </li>
+             </ul>
+             <ul class="navbar-nav ms-auto">
+                 <li class="nav-item">
+                     <a class="nav-link {{ $active === 'login' ? 'active' : '' }}" href="/login"><i
+                             class="bi bi-box-arrow-in-right"></i> Login</a>
              </ul>
          </div>
      </div>
