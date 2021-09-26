@@ -30,7 +30,8 @@
                              Hello {{ auth()->user()->name }}
                          </a>
                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                             <li><a class="dropdown-item" href="#"><i class="bi bi-layout-sidebar-inset"></i> Dashboard</a>
+                             <li><a class="dropdown-item" href="/dashboard"><i class="bi bi-layout-sidebar-inset"></i>
+                                     Dashboard</a>
                              </li>
                              <li>
                                  <div class="dropdown-divider"></div>
